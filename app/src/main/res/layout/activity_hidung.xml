@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/teng1"
+    tools:context=".hidung">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_thtoke1">
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <ImageView
+        android:id="@+id/tenggorokan1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/form"
+        android:src="@drawable/tt1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/te1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#A3A8A8"
+        android:visibility="gone"
+        android:text="Apakah temperatur tubuh 38 C elcius atau lebih? "
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ya_1"
+            android:layout_marginLeft="100dp"
+            android:layout_width="55dp"
+            android:visibility="gone"
+            android:layout_height="30dp"
+            android:text="Ya" />
+        <TextView
+            android:id="@+id/no_1"
+            android:visibility="gone"
+            android:layout_marginLeft="120dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="No"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/te2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#A3A8A8"
+        android:text="Adakah benjolan bengkak meradang di ketiak dan / selangkang? "
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/te3"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#A3A8A8"
+        android:text="Adakah ruam merah di tubuh dan anggota tubuh? "
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/te4"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#3F51B5"
+        android:text="Kemungkinan Penyebab : \nDemam kelenjar (monoknukleosis menular) sebuah infeksi virus yang menyebabkan pembekkaakan kelenjar \n Saran: \n bawa ke dokter dalam 24 jam"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/te5"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:visibility="gone"
+        android:background="#3F51B5"
+        android:text="Kemungkinan Penyebab : \nada kemungkinan ini demam merah, yaitu suatu infeksi tenggoroan oleh bakteri \n Saran: \n Segera bawa ke dokter, dokter akan mengambil contoh jaringan tenggorokan ini untuk memastikan diagnosa ini"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    </LinearLayout>
+

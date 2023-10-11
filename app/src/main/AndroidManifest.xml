@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halo.splashloginmotionlayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_jajal1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_jajal1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".informasi"></activity>
+        <activity android:name=".Diagnosa" />
+        <activity android:name=".tampilan" />
+        <activity android:name=".mulut" />
+        <activity android:name=".gigi" />
+        <activity android:name=".mata" />
+        <activity android:name=".hidung" />
+        <activity android:name=".Tenggorokan" />
+        <activity android:name=".Telinga" />
+        <activity android:name=".Home" />
+        <activity android:name=".Activity_Splash_Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

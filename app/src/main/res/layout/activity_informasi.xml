@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informasi"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_thtoke1">
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Sispak THT : \nAplikasi Ini Bertujuan Untuk Membantu anda Dalam \nMengdiagnosa keluhan yang anda alami di bagian tht dan area wajah\n\n Aplikasi Ini kami Buat untuk Tugas Akhir Untuk Makul
+        \n Sistem pakar \n\n dibuat Oleh:\n (201801005)Ahmad Fathur Ridho\n (201801001)Alwi Ma'ruf\n\n#Cukup DiRumah Saja"/>
+
+</LinearLayout>

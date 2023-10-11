@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="#03A9F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_thtoke1">
+
+
+    </LinearLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="2dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="215dp">
+
+                        <ViewFlipper
+                            android:id="@+id/viewFlipper"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/bg_tht"
+                                android:scaleType="fitXY"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/backgroun_sempak2"
+                                android:scaleType="fitXY"/>
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/best_2"
+                                android:scaleType="fitXY"/>
+
+                                  </ViewFlipper>
+
+                        <TextView
+
+                            android:id="@+id/marqueeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="190dp"
+                            android:background="@color/lightGrey"
+                            android:ellipsize="marquee"
+                            android:focusable="auto"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:text="#dirumah Saja #Pakai Masker #Patuhi Protokol Kesehatan"
+                            android:textColor="?attr/colorControlActivated"
+                            android:textSize="18sp"
+                            android:textStyle="bold|italic"
+                            tools:ignore="HardcodedText" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <LinearLayout
+                                    android:id="@+id/beranda"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
+
+                                    <ImageView
+
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:background="@drawable/button_bg"
+                                        android:src="@drawable/tel"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                       />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@color/white"
+                                        android:text="Telinga"
+                                        android:textAlignment="center"
+
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/profil"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
+                                    <ImageView
+
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:background="@drawable/form"
+                                        android:src="@drawable/tt1"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@color/white"
+                                        android:text="Tenggorokan"
+                                        android:textAlignment="center"
+
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/prodi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
+
+                                    <ImageView
+
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:background="@drawable/form"
+                                        android:src="@drawable/hd1"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@color/white"
+                                        android:text="Hidung"
+                                        android:textAlignment="center"
+
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/akademik"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
+
+                                    <ImageView
+
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:background="@drawable/form"
+                                        android:src="@drawable/mata"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@color/white"
+                                        android:text="Mata"
+                                        android:textAlignment="center"
+
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/pendaftaran"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
+
+                                    <ImageView
+
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:background="@drawable/form"
+                                        android:src="@drawable/gigi"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@color/white"
+                                        android:text="Gigi"
+                                        android:textAlignment="center"
+
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="120dp"
+                            android:layout_weight="1">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:padding="1dp">
+
+                                <LinearLayout
+                                    android:id="@+id/beasiswa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
+
+                                    <ImageView
+
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:background="@drawable/form"
+                                        android:src="@drawable/mulut"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@color/white"
+                                        android:text="Mulut
+"
+                                        android:textAlignment="center"
+
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

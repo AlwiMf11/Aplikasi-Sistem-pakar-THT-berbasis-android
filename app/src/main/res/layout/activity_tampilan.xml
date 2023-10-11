@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tampilan">
+
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/tp1">
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/logojadi" />
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/tp2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/information"
+        android:layout_width="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="80dp"
+        android:background="@drawable/info2"/>
+
+        <Button
+            android:id="@+id/diagnosis"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/diagnos"/>
+
+        <Button
+            android:id="@+id/penyakit"
+            android:layout_width="90dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="90dp"
+            android:background="@drawable/penyakit"/>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Information"/>
+        <TextView
+            android:layout_width="90dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Daftar \nPenyakit"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Diagnosa"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"/>
+    <TextView
+
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+        android:text="By \nAhmad Fathur Ridho | Alwi Ma'ruf"/>
+
+
+
+
+</LinearLayout>

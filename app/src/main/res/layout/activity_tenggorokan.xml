@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lnhidung"
+    tools:context=".Tenggorokan"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_thtoke1">
+
+
+
+
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <ImageView
+        android:id="@+id/hidung1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/form"
+        android:src="@drawable/hd1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/hidung2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:visibility="gone"
+        android:background="#A3A8A8"
+        android:text="Apakah tersumbat atau berlendirnya hidung sudah lebih dari 1 bulan? "
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hidung3"
+            android:layout_marginLeft="100dp"
+            android:layout_width="55dp"
+            android:visibility="gone"
+            android:layout_height="30dp"
+            android:text="Ya" />
+        <TextView
+            android:id="@+id/hidung4"
+            android:visibility="gone"
+            android:layout_marginLeft="120dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="No"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hidung5"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#A3A8A8"
+        android:text="Adakah keluar cairan jernih dari kedua lubang hidung? "
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/hidung6"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#A3A8A8"
+        android:text="Aadakah keluar cairan kental kuning atau hijau dari hidung? "
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/hidung7"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#3F51B5"
+        android:text=" \n Saran: \n  Mungkin terjadi pembesaran adenoid segera Bawa ke Dokter Atau Rumah sakit"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/hidung8"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:visibility="gone"
+        android:background="#3F51B5"
+        android:text="Kemungkinan Penyebab : \alergi rhinitis musiman adalah sebuah kemungkinan, Kondisi ini disebabkan oleh alergi terhadap bunga rumput dan biasannya di musim rumput berbunga \n Saran: \n Bila mungkin,di dalam rumah aja saat bunga rumput beterbangan, dan jauhkan dari daerah padang rumput. Bila langkah ini tidak menolong periksakan  ke dokter"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

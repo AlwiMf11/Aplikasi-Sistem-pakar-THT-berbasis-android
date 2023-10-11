@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/diagnos1"
+    tools:context=".Diagnosa"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:orientation="vertical">
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/bg_thtoke1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg1"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#8BC34A"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telinga" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg2"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nBenda asing : \nBenda dan serangga yang sangat kecil
+                \ndapat masuk ke dalam saluran dan bahkan \
+                \nmungkin mencapai bagian tengah telinga.\n\nTrauma :
+                \nLuka pada telinga dapat mencakup kecelakaan dan aktivitas
+                \nyang mengarah ke air mata pada gendang telinga atau \niritasi pada saluran
+                \n(misalya, menggunakan cotton buds atau mengorek telinga terlalu keras)\n
+                \nLingkungan :\nSuara yang sangat keras atau perubahan tekanan yang mendadak, \nseperti ketika seseorang menyelam ke bawah air,
+                \ndapat menyebabkan gendang telinga pecah"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg3"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#8BC34A"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hidung" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg4"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Gangguan penciuman :\n Penyakit atau gangguan pada hidung lainnya
+                \n yang umum terjadi adalah kehilangan daya penciuman.
+                \n Kondisi ini biasanya terbagi menjadi 2 jenis,
+                \n yaitu hiposmia dan anosmia.\n\n Rhinitis :\n adalah penyakit pada hidung yang ditandai
+                \n dengan hidung meler, bersin, hidung tersumbat,
+                \n serta kelelahan. Kondisi ini dapat dialami \
+                \n anak-anak dan orang dewasa.\n \n Pilek :
+                \n merupakan penyakit hidung langganan semua \n kalangan,
+                \n tanpa pandang bulu. Baik pria dan wanita,
+                \n yang tua dan yang muda hampir
+                \n semuanya pasti pernah mengalami pilek." />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg5"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#8BC34A"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg6"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Konjungtivitis :
+                \n Penyakit mata ini terjadi ketika jaringan lunak
+                \n di sekitar mata meradang dan membuat mata merah,
+                \n berair, perih, dan gatal\n\n Mata Kering :\n
+Mata kering bisa terjadi pada siapa saja,
+\n namun keluhan ini lebih sering dialami \n oleh lansia dan pada wanita. "/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg7"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#8BC34A"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tenggorokan" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg8"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Tonsillitis :\n
+\n Salah satu penyakit yang ditandai dengan
+\n sakit di tenggorokan dan kesulitan dalam
+\n menelan adalah tonsillitis alias radang tenggorokan.\n\n Faringitis :
+\n atau radang tenggorokan juga bisa memicu
+\n tenggorokan sakit saat menelan makanan dan \n minuman. \n\n Epiglotitis : \n
+Penyakit ini terjadi karena ada peradangan
+\n pada katup yang memisahkan saluran \n pernapasan dan saluran pencernaan. "/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg9"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#8BC34A"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bibir" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:id="@+id/dg10"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sariawan :\nmerupakan gangguan umum yang terjadi
+                \npada mulut, terutama bibir.\n\nMucocele :\nadalah kondisi benjolan pada bibir karena cairan.\n\nBibir bengkak :
+                \nTerkadang kita mendapati bibir bengkak tanpa tahu apa sebabnya.
+                \nBisa jadi bibir bengkak karena digigit serangga, alergi, \nhingga perawatan gigi "/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg11"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#8BC34A"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="gigi" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/dg12"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Gigi Berlubang :\n
+Gigi berlubang juga merupakan salah satu penyakit
+\n yang sering terjadi akibat jaringan gigi telah
+\n berubah menjadi karies gigi. \n\n Gusi :
+\n berdarah atau yang sering disebut juga sebagai
+\n radang gusi merupakan kondisi yang menandakan
+\n bahwa daerah gusi kotor.\n\n Gigi abrasi :
+\n terjadi akibat gigi mengalami gesekan
+\n yang terlalu kuat dan terus-menerus. "/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
